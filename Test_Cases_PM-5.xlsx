@@ -1,0 +1,17 @@
+Test Case ID	Step No	Action	Expected Result
+TC_01	Step 1	When I access the Login page	Then the Login page is displayed
+TC_01	Step 2	When I enter a valid username	Then the username is accepted
+TC_01	Step 3	When I enter a valid password	Then the password is accepted
+TC_01	Step 4	When I click on the login button	Then I am redirected to the Home page
+TC_02	Step 1	When I access the Login page	Then the Login page is displayed
+TC_02	Step 2	When I enter an invalid username	Then the username is accepted
+TC_02	Step 3	When I enter an invalid password	Then the password is accepted
+TC_02	Step 4	When I click on the login button	Then an error message 'invalid credentials' is displayed
+TC_03	Step 1	When I access the Login page	Then the Login page is displayed
+TC_03	Step 2	When I leave the username field empty	Then the username field is empty
+TC_03	Step 3	When I enter a valid password	Then the password is accepted
+TC_03	Step 4	When I click on the login button	Then an error message 'username is required' is displayed
+TC_04	Step 1	When I access the Login page	Then the Login page is displayed
+TC_04	Step 2	When I enter a valid username	Then the username is accepted
+TC_04	Step 3	When I leave the password field empty	Then the password field is empty
+TC_04	Step 4	When I click on the login button	Then an error message 'password is required' is displayed
